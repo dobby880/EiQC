@@ -1,0 +1,12 @@
+name: qiskit-0.31.1
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - pip:
+    - qiskit~=0.31.1
+    - nbgitpuller
+    - sphinx-gallery
+    - pandas
+    - matplotlib
